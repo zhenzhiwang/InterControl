@@ -254,11 +254,16 @@ python3 -m train.train_global_joint_control --save_dir save/mask1_x0_pelvis \
 ## Bibtex
 If you find this code useful in your research, please cite:
 ```
-@article{wang2023intercontrol,
-  title={InterControl: Generate Human Motion Interactions by Controlling Every Joint},
-  author={Wang, Zhenzhi and Wang, Jingbo and Lin, Dahua and Dai, Bo},
-  journal={arXiv preprint arXiv:2311.15864},
-  year={2023}
+@inproceedings{DBLP:conf/nips/000100L024,
+  author       = {Zhenzhi Wang and
+                  Jingbo Wang and
+                  Yixuan Li and
+                  Dahua Lin and
+                  Bo Dai},
+  title        = {InterControl: Zero-shot Human Interaction Generation by Controlling
+                  Every Joint},
+  booktitle    = {NeurIPS},
+  year         = {2024}
 }
 ```
 ## Acknowledgments
